@@ -1,6 +1,6 @@
 /* 242 lines*/
 /* start main rulez */
-.container {width:1000px;margin:auto;}
+.container {width:92%;margin:auto;}
 .clearfix {clear:both;}
 /* end main rulez */
 /*start header*/
@@ -10,11 +10,11 @@
     -moz-background-size:cover; /* CSS3 */
     -o-background-size:cover; /* CSS3 */
     background-size:cover; /* CSS3 */
-	height:600px;
+	height:80vh;
 }
 .header .slider .intro {
-	padding-top:200px;
-	height:600px;
+	padding-top:25vh;
+	height:80vh;
 	text-align:center;
 	color:#3f4042;
 }
@@ -35,6 +35,10 @@
 	font-weight:bold;
 	padding:10px 30px;
 	border-radius:15px;
+	transition: all .5s ease-in-out;
+}
+.header .slider .intro button:hover{
+	background:#fff;
 }
 .header .navbar{
 	background:#252F31;
@@ -53,40 +57,40 @@
 .header .navbar ul li{float:left;padding:10px;}
 .header .navbar ul li a {color:#fff;text-decoration:none;}
 .header .navbar ul li.active a,
-.header .navbar ul li a:hover{color:#309746;}
+.header .navbar ul li a:hover{color:#24CC6C;}
 /*end header*/
 /*start features*/
 .features {overflow:hidden;padding-top:40px;padding-bottom:50px;}
-.features .feat{width:33.33333%;height:150px;}
+.features .feat{width:31%;min-height:150px; margin: 1%;}
 /*end features*/
 /*start about me*/
 .about-me{background-color:#F2F2F2;overflow:hidden;}
 
-.about-me img {width:40%;}
+.about-me img {width:38%;}
 
-.about-me .img img{width=100%; height:500px;}
+.about-me .img img{width:39vw; height:70vh;}
 
-.about-me .info {width:60%;}
+.about-me .info {width:56%;}
 
-.about-me .info h2{margin:30px 0 10px 30px;}
+.about-me .info h2{margin:20px 0 10px 20px;}
 
-.about-me .info > p{margin:0 0 5px 30px;}
+.about-me .info > p{margin:0 0 5px 20px;}
 
-.about-me .info p:last-of-type{margin:15px 0 5px 25px;}
+.about-me .info p:last-of-type{margin:0 0 5px 20px;}
 
-.about-me .info .hobbies{overflow:hidden;margin:20px 0 0 40px;}
+.about-me .info .hobbies{overflow:hidden;margin:20px 0 0 20px;}
 
 .about-me .info .hobbies .content {width:50%;min-height:100px;overflow:hidden;}
 
 .about-me .info .hobbies .content .icon{width:12%;}
 
-.about-me .info .hobbies .content .icon img{ max-width:100%;margin:20px 10px 0 0;}
+.about-me .info .hobbies .content .icon img{ max-width:100%;margin:20px 5px 0 0;}
 
-.about-me .info .hobbies .content .text{width:83%;}
+.about-me .info .hobbies .content .text{width:85%;}
 
 .about-me .info .hobbies .content .text p{margin:0; }
 
-.about-me .info .hobbies .content .text h3{margin-bottom:3px;}
+.about-me .info .hobbies .content .text h3{margin-bottom:5px;}
 /*end about me*/
 /*start my skills*/
 .my-skills {
@@ -99,7 +103,8 @@
 .my-skills .skills h2{margin:20px 0 10px 20px;line-height:1.6;}
 .my-skills .skills p{margin:0 0 5px 30px;}
 .my-skills .skills p:last-of-type{margin:30px 0 5px 30px;}
-.my-skills .skills button{margin-top:20px;margin-left:40px;}
+.my-skills .skills button{margin-top:20px;margin-left:40px;transition: all .5s ease-in-out;}
+.my-skills .skills button:hover{background: #24CC6C; color: #fff;}
 .my-skills .progress .technique {margin-left:40px;}
 .my-skills .progress .technique div{background-color:#F2F2F2;height:25px; border-radius:5px;}
 .my-skills .progress .technique div span{
@@ -125,12 +130,12 @@
 /*end Resumo*/
 /*start my education*/
 .my-education {padding-top:20px;padding-bottom:30px;overflow:hidden;}
-.my-education .main{	width:50%;margin-right:5%}
+.my-education .main{width:50%;margin-right:5%}
 .my-education .main h2{margin:40px 0 20px 40px;line-height:1.6;}
 .my-education .main p{margin:0 0 10px 40px;}
 .my-education .main p:last-of-type{margin:30px 0 10px 40px;} 
 .my-education .exp {width:45%;}
-.my-education .exp h3 {margin-top:60px;margin-bottom:10px;}
+.my-education .exp h3 {margin-top:40px;margin-bottom:10px;}
 .my-education .exp span {display:block;margin-bottom:10px;}
 .my-education .exp span:first-of-type {color:#999;}
 .my-education .exp span:last-of-type {
@@ -141,7 +146,7 @@
 	border-radius:5px;
 }
 .my-education hr {
-	margin:20px 0;
+	margin:10px 0;
 	background-color:#999;
 	height:.1px;
 	border:o; 
@@ -150,8 +155,8 @@
 /*start testimonils*/
 .testimonils {
 	background-color:#F2F2F2;
-	padding-top:50px;
-	padding-bottom:50px;
+	padding-top:40px;
+	padding-bottom:40px;
 	text-align:center;
 }
 .testimonils q {color:#888;font:italic bold 18px/1.8px Arial, Tahoma;}
@@ -223,6 +228,7 @@
 	border-radius:5px;
 }
 .contact .form input[type="submit"]{
+	width: 20vw;
 	background-color:#191E22;
 	color:#fff;
 	padding:10px 20px;
@@ -250,8 +256,32 @@
 	padding:10px 40px;
 	font-weight:bold;
 	border-radius:10px;
+	transition: all .5s ease-in-out;
+}
+.my-button:hover{
+	background:#2DCC70;
+	color:#fff;
 }
 .fl-left {float:left;}
 p {line-height:1.7;color:#888;}
 h2, h3 {color:#555;}
 /*end my framework*/
+/* start media */
+@media (max-width: 800px) {
+	.header .slider .intro h1 {
+		font-size:1.5rem;
+		width:70vw;
+	}
+	.header .navbar ul{display: none;}
+	.features .feat{width:100%;}
+	.about-me .img img{width:90vw;}
+	.about-me .info {width:90%;}
+	.my-skills .skills,
+	.my-skills .progress {width:90%; margin: 5%;}
+	.my-education .main{width:90%;}
+	.my-education .exp {width:90%; margin: 5%;}
+	.portfolio .our-work > div{width:50%;}
+	.contact .info {width:90%;margin: 0;}
+	.contact .form{width:90%; margin-left: 5%;}
+	.contact .form input[type="submit"]{width: 90%;}
+}
